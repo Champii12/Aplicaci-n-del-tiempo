@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Estilos generales para el body con un degradado de fondo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+}
+
+/* Contenedor principal centrado */
+.App {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Encabezado con tipografía grande, color blanco y sombra para resaltar */
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para el párrafo de la temperatura */
+p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+/* Estilos personalizados para el reloj digital */
+.digital-clock {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #ff6f61;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* Estilos para el input de la ciudad */
+.inputCiudad {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #feb47b;
+    background-color: #feb47b;
+    font-size: 1rem;
+    width: 50%;
+}
+
+/* Estilos para el botón de cambio */
+.botonCambio {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ff6f61;
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 1rem;
+    width: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botonCambio:hover {
+    background-color: #e65c54;
+}
